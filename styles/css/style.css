@@ -244,6 +244,11 @@ nav ul li {
   margin: 0 auto;
   justify-content: space-between;
 }
+@media only screen and (max-width: 900px) {
+  .team-title {
+    width: 90%;
+  }
+}
 
 .team-title-text {
   margin-left: 30px;
@@ -263,6 +268,11 @@ nav ul li {
   font-size: 46px;
   color: #b0b4be;
   font-weight: bolder;
+}
+@media only screen and (max-width: 900px) {
+  .tags li {
+    font-size: 20px;
+  }
 }
 .tags li:first-child {
   background-color: #b0b4be;

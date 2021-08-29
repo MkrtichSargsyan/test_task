@@ -167,7 +167,7 @@ nav {
   @media only screen and (max-width: 900px) {
     display: none;
 
-    
+
   }
 
 }
@@ -180,6 +180,10 @@ nav {
   width: 60%;
   margin: 0 auto;
   justify-content: space-between;
+
+  @media only screen and (max-width: 900px) {
+    width: 90%;
+  }
 }
 
 .team-title-text {
@@ -200,6 +204,10 @@ nav {
     font-size: 46px;
     color: #b0b4be;
     font-weight: bolder;
+
+    @media only screen and (max-width: 900px) {
+      font-size: 20px;
+    }
   }
 
   li:first-child {
