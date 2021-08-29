@@ -62,3 +62,81 @@ nav {
     font-size: 100px;
   }
 }
+
+// devider
+
+.devider {
+  padding: 20px;
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  ul {
+    display: flex;
+
+    li {
+      margin-right: 50px;
+
+      a {
+        color: black;
+      }
+    }
+  }
+
+  img {
+    width: 50px;
+  }
+}
+
+// history
+
+.history {
+  background-image: url('../../images/mountain.png');
+  height: 100vh;
+  background-size: cover;
+
+  article {
+    padding-top: 30px;
+    width: 60%;
+    margin: 0 auto;
+
+    .heading {
+      display: flex;
+
+      .title-number {
+        font-size: 110px;
+        font-weight: 600;
+        color: #414f6b;
+        margin-right: 10px;
+        opacity: 0.5019607843137255;
+      }
+      .dot {
+        width: 20px;
+        height: 20px;
+        background-color: #414f6b;
+        opacity: 0.5019607843137255;
+      }
+
+      .title-text {
+        color: #283244;
+        height: fit-content;
+        margin-top: 55px;
+        font-weight: 700;
+        font-size: 24px;
+      }
+    }
+  }
+}
