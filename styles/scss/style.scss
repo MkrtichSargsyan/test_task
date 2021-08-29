@@ -63,6 +63,15 @@ nav {
     margin-top: -20px;
     font-size: 100px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .los {
+      font-size: 60px;
+    }
+    .moun {
+      font-size: 70px;
+    }
+  }
 }
 
 // devider
@@ -94,6 +103,10 @@ nav {
 
       a {
         color: black;
+      }
+
+      @media only screen and (max-width: 600px) {
+        margin-right: 20px;
       }
     }
   }
@@ -138,7 +151,7 @@ nav {
   .title-text {
     color: #283244;
     height: fit-content;
-    margin-top: 55px;
+    margin-top: 65px;
     font-weight: 700;
     font-size: 24px;
   }
@@ -150,6 +163,13 @@ nav {
   padding: 20px;
   padding-bottom: 40px;
   background-color: #414f6b;
+
+  @media only screen and (max-width: 900px) {
+    display: none;
+
+    
+  }
+
 }
 
 // team
@@ -189,7 +209,6 @@ nav {
   }
 }
 
-
 .schedule {
   background-image: url('../../images/schedule.png');
   background-size: cover;
@@ -206,14 +225,14 @@ nav {
     background-color: white;
     padding: 15px 35px;
 
-    .bot{
+    .bot {
       margin-bottom: 15px;
     }
 
-    #child{
+    #child {
       z-index: 3;
 
-      div{
+      div {
         display: flex;
         justify-content: space-between;
       }
@@ -230,26 +249,26 @@ nav {
 
 // footer
 
-footer{
-  background-color: #414F6B;
-  color: #63769D;
+footer {
+  background-color: #414f6b;
+  color: #63769d;
 
-  .logoContainer{
+  .logoContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 24px;
 
-    div{
+    div {
       margin-left: 20px;
     }
 
-    span:last-child{
+    span:last-child {
       margin-top: -10px;
     }
   }
 
-  img{
+  img {
     width: 50px;
     height: 50px;
   }

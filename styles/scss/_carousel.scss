@@ -2,7 +2,7 @@
   border: 1px solid #000000;
 }
 
-figure{
+figure {
   height: 150px;
 }
 
@@ -27,4 +27,41 @@ figure img {
 
 .blog .carousel-indicators .active {
   background: #0fc9af;
+}
+
+.accordeon-container {
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    transition: 0.4s;
+  }
+
+  .active,
+  .accordion:hover {
+    background-color: #ccc;
+  }
+
+  .panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+
+    figure,
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: fill;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    display: none;
+  }
 }

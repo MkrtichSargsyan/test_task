@@ -58,6 +58,39 @@ figure img {
   background: #0fc9af;
 }
 
+.accordeon-container .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.4s;
+}
+.accordeon-container .active,
+.accordeon-container .accordion:hover {
+  background-color: #ccc;
+}
+.accordeon-container .panel {
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordeon-container .panel figure,
+.accordeon-container .panel img {
+  width: 100%;
+  height: 200px;
+  object-fit: fill;
+}
+@media only screen and (min-width: 900px) {
+  .accordeon-container {
+    display: none;
+  }
+}
+
 body {
   max-width: 1400px;
   width: 100%;
@@ -113,6 +146,14 @@ nav ul li {
   margin-top: -20px;
   font-size: 100px;
 }
+@media only screen and (max-width: 600px) {
+  .showcase .los {
+    font-size: 60px;
+  }
+  .showcase .moun {
+    font-size: 70px;
+  }
+}
 
 .devider {
   padding: 20px;
@@ -139,6 +180,11 @@ nav ul li {
 }
 .devider ul li a {
   color: black;
+}
+@media only screen and (max-width: 600px) {
+  .devider ul li {
+    margin-right: 20px;
+  }
 }
 .devider img {
   width: 50px;
@@ -175,7 +221,7 @@ nav ul li {
 .heading .title-text {
   color: #283244;
   height: fit-content;
-  margin-top: 55px;
+  margin-top: 65px;
   font-weight: 700;
   font-size: 24px;
 }
@@ -184,6 +230,11 @@ nav ul li {
   padding: 20px;
   padding-bottom: 40px;
   background-color: #414f6b;
+}
+@media only screen and (max-width: 900px) {
+  .carousel {
+    display: none;
+  }
 }
 
 .team-title {
@@ -253,8 +304,8 @@ nav ul li {
 }
 
 footer {
-  background-color: #414F6B;
-  color: #63769D;
+  background-color: #414f6b;
+  color: #63769d;
 }
 footer .logoContainer {
   display: flex;
