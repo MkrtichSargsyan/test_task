@@ -1,0 +1,23 @@
+{
+  "name": "test_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass styles/scss/style.scss styles/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MkrtichSargsyan/test_task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MkrtichSargsyan/test_task/issues"
+  },
+  "homepage": "https://github.com/MkrtichSargsyan/test_task#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "sass": "^1.38.2"
+  }
+}
