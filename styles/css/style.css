@@ -1,3 +1,86 @@
-body{
-  background: black;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
 }
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: #dbdbdb;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 10px;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin-right: 50px;
+}
+
+.showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../images/showcase.png");
+  background-size: cover;
+}
+.showcase .showcaseText {
+  display: flex;
+  flex-direction: column;
+}
+.showcase .showcaseText * {
+  font-family: monospace;
+  font-weight: bolder;
+}
+.showcase .los {
+  color: #4d4d4e;
+  font-size: 90px;
+}
+.showcase .moun {
+  color: #3c4c65;
+  margin-top: -20px;
+  font-size: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

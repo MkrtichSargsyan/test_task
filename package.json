@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass styles/scss/style.scss styles/css/style.css -w"
+    "sass": "sass --watch styles/scss/style.scss styles/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/MkrtichSargsyan/test_task#readme",
   "devDependencies": {
-    "node-sass": "^6.0.1",
+    "node-sass": "^4.14.1",
     "sass": "^1.38.2"
   }
 }

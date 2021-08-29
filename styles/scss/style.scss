@@ -1,3 +1,64 @@
-body{
-  background: black;
+@import 'global.scss';
+
+body {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 10px;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+
+    li {
+      margin-right: 50px;
+    }
+  }
+}
+
+// showcase
+
+.showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../../images/showcase.png');
+  background-size: cover;
+
+  .showcaseText {
+    display: flex;
+    flex-direction: column;
+
+    * {
+      font-family: monospace;
+      font-weight: bolder;
+    }
+  }
+
+  .los {
+    color: #4d4d4e;
+    font-size: 90px;
+  }
+
+  .moun {
+    color: #3c4c65;
+    margin-top: -20px;
+    font-size: 100px;
+  }
 }
