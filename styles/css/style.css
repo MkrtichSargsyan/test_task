@@ -28,6 +28,36 @@ img {
   object-fit: cover;
 }
 
+.cta-100 {
+  border: 1px solid #000000;
+}
+
+figure {
+  height: 150px;
+}
+
+figure img {
+  height: 150px;
+  width: 300px;
+}
+
+.blog .carousel-indicators {
+  margin: 0 auto;
+  position: absolute;
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+  background: #708198;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.blog .carousel-indicators .active {
+  background: #0fc9af;
+}
+
 body {
   max-width: 1400px;
   width: 100%;
@@ -114,8 +144,9 @@ nav ul li {
 }
 
 .history {
+  position: relative;
   background-image: url("../../images/mountain.png");
-  height: 100vh;
+  height: 120vh;
   background-size: cover;
 }
 .history article {
@@ -145,6 +176,12 @@ nav ul li {
   margin-top: 55px;
   font-weight: 700;
   font-size: 24px;
+}
+
+.carousel {
+  padding: 20px;
+  padding-bottom: 40px;
+  background-color: #414F6B;
 }
 
 /*# sourceMappingURL=style.css.map */

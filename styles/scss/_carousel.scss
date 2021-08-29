@@ -1,0 +1,30 @@
+.cta-100 {
+  border: 1px solid #000000;
+}
+
+figure{
+  height: 150px;
+}
+
+figure img {
+  height: 150px;
+  width: 300px;
+}
+
+.blog .carousel-indicators {
+  margin: 0 auto;
+  position: absolute;
+}
+
+/* The colour of the indicators */
+
+.blog .carousel-indicators li {
+  background: #708198;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.blog .carousel-indicators .active {
+  background: #0fc9af;
+}

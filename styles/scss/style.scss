@@ -1,4 +1,5 @@
 @import 'global.scss';
+@import 'carousel.scss';
 
 body {
   max-width: 1400px;
@@ -104,8 +105,9 @@ nav {
 // history
 
 .history {
+  position: relative;
   background-image: url('../../images/mountain.png');
-  height: 100vh;
+  height: 120vh;
   background-size: cover;
 
   article {
@@ -140,3 +142,12 @@ nav {
     }
   }
 }
+
+// carousel
+
+.carousel {
+  padding: 20px;
+  padding-bottom: 40px;
+  background-color: #414F6B;
+}
+
